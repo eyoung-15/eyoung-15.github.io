@@ -1,3 +1,6 @@
+//This file will contain the code for generating SVG drawings and visualization.
+
+
 // Add your SVG drawing logic here
 const svg = document.getElementById('vis');
 
