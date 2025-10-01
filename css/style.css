@@ -1,32 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    background-color: #f0faff;
     font-size: 1rem;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #8bd3fc;
     color: white;
     padding: 1.5rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    text-align: center;
     position: sticky;
-    top: 0;
 }
 
 h1 {
     font-size: 2rem;
-    color: black;
-}
-
-nav {
-    display: flex;
-    gap: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: white;
 }
 
 nav a {
@@ -35,6 +27,7 @@ nav a {
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 0.5rem;
+
 }
 
 .section {
@@ -46,8 +39,7 @@ nav a {
 }
 
 footer {
-    background-color: black;
-    color: white;
+    background-color: #8bd3fc;
     padding: 2rem;
     font-size: 1rem;
     text-align: center;
@@ -63,6 +55,12 @@ p {
     font-size: 1rem;
     line-height: 1.8;
     color: black;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: white;
 }
 
 svg {
