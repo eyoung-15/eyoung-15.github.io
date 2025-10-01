@@ -53,13 +53,11 @@ for (let i = 0; i < numCircles; i++) {
     creative.appendChild(circle);
 }
 
-//random color
-let circlesColor = document.querySelectorAll("colorCircle");
-
-circlesColor.forEach((circle) => {
-    circle.addEventListener("click", () => {
+//change colors randomly upon click
+creative.addEventListener("click", () => {
+    circles.forEach(c => {
         let randomColor = Math.floor(Math.random() * 16777215);
-        circle.setAttribute("fill", `#${randomColor}`);
+        c.el.setAttribute("fill", `#${randomColor}`);
     });
 
 });
