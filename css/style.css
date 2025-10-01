@@ -41,7 +41,7 @@ nav a {
 
 .about {
     margin: 3rem auto;
-    padding: 0 1rem;
+    /* padding: 0 1rem; */
 }
 
 footer {
@@ -63,6 +63,8 @@ p {
     font-size: 1rem;
     line-height: 1.8;
     color: black;
+    padding: 0 1rem;
+
 }
 
 footer p {
