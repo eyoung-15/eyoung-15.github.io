@@ -67,6 +67,11 @@ h2 {
 
 }
 
+h3 {
+    font-family: "Zalando Sans Expanded", sans-serif;
+
+}
+
 p {
     font-size: 1rem;
     line-height: 1.8;
@@ -93,6 +98,32 @@ svg {
     margin: 3rem auto;
     padding: 0 1rem;
 }
+
+.website-project-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.application-project-img {
+    display: block;
+    margin: 0 auto;
+}
+
+figure {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+img {
+    border-radius: 1rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+
+}
+
 
 @media (max-width: 1068px) {
     header {
@@ -121,4 +152,10 @@ svg {
     svg {
         padding: 1.5rem;
     }
+
+    .website-project-img,
+    .application-project-img {
+        width: 100%;
+    }
+
 }
