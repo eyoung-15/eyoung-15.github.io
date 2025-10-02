@@ -35,19 +35,23 @@ nav a {
 
 }
 
-a:hover,
-a:focus {
+nav a:hover,
+nav a:focus {
+    text-decoration: none;
     background: #4287f5;
     cursor: pointer;
 }
 
+a:hover,
+a:focus {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .section {
     background: white;
-    /* padding: 3rem 2rem; */
     padding: 2rem;
-    /* margin: 4rem auto; */
     margin: 2rem 0;
-    /* max-width: 90%; */
     border-radius: 1rem;
 }
 
@@ -149,6 +153,20 @@ img {
     display: block;
     margin: 0 auto;
 
+}
+
+button {
+    background-color: #4287f5;
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover,
+button:focus {
+    background: #1e6ae3;
+    cursor: pointer;
 }
 
 
