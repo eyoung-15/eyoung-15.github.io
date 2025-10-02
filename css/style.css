@@ -117,7 +117,7 @@ svg {
     border-radius: 1rem;
 }
 
-#vis-container {
+.vis-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -203,7 +203,7 @@ button:focus {
         width: 100%;
     }
 
-    #vis-container {
+    .vis-container {
         padding: 0 1.5rem;
     }
 
