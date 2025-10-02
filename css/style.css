@@ -21,6 +21,11 @@ h1 {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 nav a {
     text-decoration: none;
     font-weight: bold;
@@ -64,11 +69,25 @@ h2 {
     font-size: 2rem;
     color: black;
     font-family: "Zalando Sans Expanded", sans-serif;
+    padding: 0 1rem;
+
 
 }
 
 h3 {
     font-family: "Zalando Sans Expanded", sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0 1rem;
+
+}
+
+h4 {
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+    color: black;
+    padding: 0 1rem;
 
 }
 
@@ -95,8 +114,16 @@ svg {
 }
 
 #vis-container {
-    margin: 3rem auto;
-    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.vis-text {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 7rem;
 }
 
 .website-project-img {
@@ -157,5 +184,10 @@ img {
     .application-project-img {
         width: 100%;
     }
+
+    #vis-container {
+        padding: 0 1.5rem;
+    }
+
 
 }
